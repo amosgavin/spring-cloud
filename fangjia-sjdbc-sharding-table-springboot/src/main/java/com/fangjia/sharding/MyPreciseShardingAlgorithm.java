@@ -1,8 +1,9 @@
 package com.fangjia.sharding;
 
+import io.shardingsphere.api.algorithm.sharding.PreciseShardingValue;
+import io.shardingsphere.api.algorithm.sharding.standard.PreciseShardingAlgorithm;
+
 import java.util.Collection;
-import io.shardingjdbc.core.api.algorithm.sharding.PreciseShardingValue;
-import io.shardingjdbc.core.api.algorithm.sharding.standard.PreciseShardingAlgorithm;
 /**
  * 自定义分片算法
  * 
